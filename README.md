@@ -1,61 +1,65 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## ✈️ Features — Travel Agency Website
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This project is a **full-featured travel agency platform** built using **Laravel (PHP)** for backend services and **Java** for certain client-side or microservice components. It offers robust tools for both travelers and administrators to manage bookings, destinations, and more.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### 🌍 User Functionality
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+#### 🔎 Destination Discovery
+- Browse curated travel destinations by country, activity, or theme.
+- Filter tours by **budget**, **season**, or **duration**.
+- View **detailed itineraries**, maps, and destination highlights.
+- Save destinations to **wishlists** for future planning.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+#### 📅 Trip Booking & Planning
+- Search and book **flights, hotels, and full travel packages**.
+- Real-time **availability and pricing** with dynamic filters.
+- Integrated **calendar view** for managing travel dates.
+- Select from **group tours**, **solo packages**, or **custom itineraries**.
 
-## Learning Laravel
+#### 💳 Secure Payments
+- Integrated **online payment gateway** with support for credit/debit cards and digital wallets.
+- View **transaction history** and generate digital invoices.
+- Apply promo codes and loyalty points for discounts.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+#### 📦 Travel Packages
+- Explore pre-built packages including flights, accommodation, transfers, and activities.
+- Compare features, reviews, and prices in a side-by-side view.
+- Customize and save your own travel bundle.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+#### 👤 User Dashboard
+- Manage your bookings, personal info, and preferences.
+- Track travel history and upcoming trips.
+- Get **real-time notifications** and travel alerts.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+### 🛠️ Admin Functionality
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+#### 🎯 Destination Management
+- Add/edit/delete destinations, activities, and tours.
+- Upload images, videos, and travel guides.
+- Tag destinations with themes like **"Adventure"**, **"Relaxation"**, or **"Romantic"**.
 
-### Premium Partners
+#### 📊 Analytics & Reporting
+- View detailed analytics on user bookings, seasonal trends, and sales.
+- Export reports in CSV or PDF formats.
+- Monitor most popular destinations and peak booking times.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+#### 🧾 Booking & Transaction Control
+- Manage and verify all bookings.
+- View pending, confirmed, and canceled reservations.
+- Generate and send invoices, update payment statuses.
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 🤝 Additional Features
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- 🗺️ **Interactive Map Integration** (Google Maps API)
+- 📨 **Email & SMS notifications** for booking confirmations and reminders
+- 🔒 **Role-based authentication** (Admin, Agent, Customer)
+- 🌐 **Multi-language support**
+- 🛂 **Visa assistance tools** and document upload system
+- 🧭 **Travel blog and articles** for tips & guides
+- 🛠️ Built with **Laravel Blade templates**, **RESTful APIs**, and **Java-based microservices** for scalability
